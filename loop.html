@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LOOP — 泷 (Taki)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="i18n.js"></script>
+</head>
+<body>
+<header>
+  <nav class="nav-links">
+    <a href="portfolio-deconstruction.html" class="back-link" data-i18n="nav_back">← Works</a>
+    <a href="loop.html" class="active">LOOP</a>
+    <a href="aeropod.html">Aeropod</a>
+    <a href="mantis.html">Mantis</a>
+    <a href="watchglow.html">WATCH GLOW</a>
+  </nav>
+  <div class="lang-switcher" id="langSwitcher">
+    <button class="lang-btn active" data-lang="zh-CN">简</button>
+    <button class="lang-btn" data-lang="zh-TW">繁</button>
+    <button class="lang-btn" data-lang="en">EN</button>
+    <button class="lang-btn" data-lang="ja">日</button>
+    <button class="lang-btn" data-lang="ko">한</button>
+  </div>
+</header>
+
+<section class="project-panel" id="loop-panel" data-product="loop">
+  <div class="liquid-bg">
+    <div class="color-block c1"></div>
+    <div class="color-block c2"></div>
+    <div class="color-block c3"></div>
+    <div class="color-block c4"></div>
+    <div class="color-block c5"></div>
+  </div>
+  <div class="panel-number">01</div>
+  <div class="panel-wave-bg">
+    <svg class="panel-wave" viewBox="0 0 1440 200" preserveAspectRatio="none">
+      <path class="wave-base" d="M0,120 C360,60 720,180 1080,100 C1260,60 1380,80 1440,100 L1440,200 L0,200 Z"/>
+      <path class="wave-mid" d="M0,140 C360,100 720,160 1080,120 C1260,90 1380,110 1440,120 L1440,200 L0,200 Z"/>
+      <path class="wave-top" d="M0,160 C360,130 720,150 1080,140 C1260,120 1380,140 1440,150 L1440,200 L0,200 Z"/>
+      <path class="wave-glow" d="M0,110 C360,50 720,170 1080,90 C1260,50 1380,70 1440,90 L1440,200 L0,200 Z"/>
+    </svg>
+  </div>
+
+  <div class="product-stage" id="loop-stage">
+    <img class="product-img" id="loop-img" src="assets/loop_hero.png" alt="LOOP">
+    <span class="click-cue" data-i18n="click_cue">Click to Explode</span>
+  </div>
+
+  <div class="panel-info" id="loop-info">
+    <p class="panel-tag" data-i18n="panel_tag_loop">Product Design · Implicit Technology</p>
+    <p class="panel-designer" data-i18n="panel_designer">Designed by 泷</p>
+    <p class="panel-desc" data-i18n="desc_loop" data-i18n-html="true">LOOP 重新定义了女性健康监测的边界。<strong>Ø260mm×H320mm 智能垃圾桶，嵌入式非侵入式光谱传感器</strong>，在无感状态下监测经期健康。ARM Cortex-M4 处理器、BLE 5.0 无线传输、12个月续航。一种极其克制的设计哲学——最好的技术不是刷存在感，而是以近乎温柔的姿态，填补医学诊断与日常生活的断层。</p>
+  </div>
+
+  <div class="panel-footer" id="loop-footer">
+    <div class="footer-body">
+      <p class="footer-name" data-i18n="footer_name_loop">LOOP</p>
+      <p class="footer-desc" data-i18n="footer_desc_loop">女性健康数据的去中心化与赋权。传统医疗体系长期忽视女性生理健康的个性化需求，LOOP 将临床级监测能力融入日常物品，让每位女性在无感状态下获得属于自己的健康数据主权。</p>
+    </div>
+    <div class="footer-scene-trigger" data-i18n="scene_trigger">
+      使用场景 ▾
+      <div class="footer-scene-popup">
+        <div><img class="footer-scene-popup-img" src="assets/loop_scene1.jpg" alt="卫浴场景"><span class="popup-label" data-i18n="scene_label_loop_1">晨光浴室 · 无感监测</span></div>
+        <div><img class="footer-scene-popup-img" src="assets/loop_scene2.jpg" alt="数据查看"><span class="popup-label" data-i18n="scene_label_loop_2">手机端 · 健康数据</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="exploded-phase" id="loop-phase">
+    <div class="exploded-sketch-bg">
+      <img src="assets/loop_sketch.jpg" alt="LOOP sketch">
+    </div>
+    <div class="exploded-stage">
+      <div class="exploded-hero">
+        <img class="hero-thumb" src="assets/loop_exploded.png" alt="LOOP">
+      </div>
+      <div class="exploded-part" data-pos="top-left" data-part="top">
+        <img class="part-thumb" src="assets/loop_top.png" alt="顶盖">
+        <span class="part-tag" data-i18n="part_loop_top">桶盖 · 开合结构</span>
+      </div>
+      <div class="exploded-part" data-pos="top-right" data-part="pcb">
+        <img class="part-thumb" src="assets/loop_internal.png" alt="PCB">
+        <span class="part-tag" data-i18n="part_loop_pcb">PCB · 主板</span>
+      </div>
+      <div class="exploded-part" data-pos="right" data-part="sensor">
+        <img class="part-thumb" src="assets/loop_sensor.png" alt="传感器">
+        <span class="part-tag" data-i18n="part_loop_sensor">光学传感器阵列</span>
+      </div>
+      <div class="exploded-part" data-pos="bottom-right" data-part="ble">
+        <img class="part-thumb" src="assets/loop_ble.png" alt="BLE模块">
+        <span class="part-tag" data-i18n="part_loop_ble">BLE 无线模块</span>
+      </div>
+      <div class="exploded-part" data-pos="bottom-left" data-part="cloud">
+        <img class="part-thumb" src="assets/loop_cloud.png" alt="云端平台">
+        <span class="part-tag" data-i18n="part_loop_cloud">云端健康平台</span>
+      </div>
+    </div>
+    <div class="exploded-detail" id="loop-detail"><div class="detail-name"></div><div class="detail-desc"></div></div>
+    <button class="collapse-btn" id="loop-collapse" data-i18n="collapse_btn">Collapse</button>
+  </div>
+
+  <div class="scroll-indicator" id="loop-scroll">
+    <span></span><span></span><span></span>
+  </div>
+</section>
+
+<script src="product.js"></script>
+<script>initProduct('loop');</script>
+</body>
+</html>

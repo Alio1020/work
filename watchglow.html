@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WATCH GLOW — 泷 (Taki)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="i18n.js"></script>
+</head>
+<body>
+<header>
+  <nav class="nav-links">
+    <a href="portfolio-deconstruction.html" class="back-link" data-i18n="nav_back">← Works</a>
+    <a href="loop.html">LOOP</a>
+    <a href="aeropod.html">Aeropod</a>
+    <a href="mantis.html">Mantis</a>
+    <a href="watchglow.html" class="active">WATCH GLOW</a>
+  </nav>
+  <div class="lang-switcher" id="langSwitcher">
+    <button class="lang-btn active" data-lang="zh-CN">简</button>
+    <button class="lang-btn" data-lang="zh-TW">繁</button>
+    <button class="lang-btn" data-lang="en">EN</button>
+    <button class="lang-btn" data-lang="ja">日</button>
+    <button class="lang-btn" data-lang="ko">한</button>
+  </div>
+</header>
+
+<section class="project-panel" id="watchglow-panel" data-product="watchglow">
+  <div class="liquid-bg">
+    <div class="color-block c1"></div>
+    <div class="color-block c2"></div>
+    <div class="color-block c3"></div>
+    <div class="color-block c4"></div>
+    <div class="color-block c5"></div>
+  </div>
+  <div class="panel-number">04</div>
+  <div class="panel-wave-bg">
+    <svg class="panel-wave" viewBox="0 0 1440 200" preserveAspectRatio="none">
+      <path class="wave-base" d="M0,120 C360,60 720,180 1080,100 C1260,60 1380,80 1440,100 L1440,200 L0,200 Z"/>
+      <path class="wave-mid" d="M0,140 C360,100 720,160 1080,120 C1260,90 1380,110 1440,120 L1440,200 L0,200 Z"/>
+      <path class="wave-top" d="M0,160 C360,130 720,150 1080,140 C1260,120 1380,140 1440,150 L1440,200 L0,200 Z"/>
+      <path class="wave-glow" d="M0,110 C360,50 720,170 1080,90 C1260,50 1380,70 1440,90 L1440,200 L0,200 Z"/>
+    </svg>
+  </div>
+
+  <div class="product-stage" id="watchglow-stage">
+    <img class="product-img" id="watchglow-img" src="assets/watchglow_hero.png" alt="WATCH GLOW">
+    <span class="click-cue" data-i18n="click_cue">Click to Explode</span>
+  </div>
+
+  <div class="panel-info" id="watchglow-info">
+    <p class="panel-tag" data-i18n="panel_tag_watchglow">Interaction Design · Fashion Tech</p>
+    <p class="panel-designer" data-i18n="panel_designer">Designed by 泷</p>
+    <p class="panel-desc" data-i18n="desc_watchglow" data-i18n-html="true">WATCH GLOW 将智能穿戴从工具升级为时尚宣言。<strong>46mm 方表表盘 x 10.2mm 厚度，铝合金机身 + 蓝宝石玻璃，仅重 50g</strong>。核心创新"电子吧唧"——可拆卸动态徽章模块，通过 NFC 实现社交互动与自我表达。内嵌式滚轮旋钮与宝石装饰表带，100+ 运动模式、女性健康管理、eSIM 独立通信。</p>
+  </div>
+
+  <div class="panel-footer" id="watchglow-footer">
+    <div class="footer-body">
+      <p class="footer-name" data-i18n="footer_name_watchglow">WATCH GLOW</p>
+      <p class="footer-desc" data-i18n="footer_desc_watchglow">时尚科技的去性别化与自我表达。智能穿戴长期被定义为男性化的极客工具，WATCH GLOW 以可拆卸电子徽章系统打破这一刻板印象——科技不应定义你是谁，而应成为你表达自我的媒介。</p>
+    </div>
+    <div class="footer-scene-trigger">
+      <span data-i18n="scene_trigger">使用场景 ▾</span>
+      <div class="footer-scene-popup">
+        <div><img class="footer-scene-popup-img" src="assets/watchglow_scene1.jpg" alt="都市社交"><span class="popup-label" data-i18n="scene_label_watchglow_1">都市社交 · NFC吧唧</span></div>
+        <div><img class="footer-scene-popup-img" src="assets/watchglow_scene2.jpg" alt="户外运动"><span class="popup-label" data-i18n="scene_label_watchglow_2">户外运动 · 全程追踪</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="exploded-phase" id="watchglow-phase">
+    <div class="exploded-sketch-bg">
+      <img src="assets/watchglow_sketch.jpg" alt="WATCH GLOW sketch">
+    </div>
+    <div class="exploded-stage">
+      <div class="exploded-hero">
+        <img class="hero-thumb" src="assets/watchglow_exploded.png" alt="WATCH GLOW">
+      </div>
+      <div class="exploded-part" data-pos="top-left" data-part="case">
+        <img class="part-thumb" src="assets/watchglow_hero.png" alt="表壳">
+        <span class="part-tag" data-i18n="part_watchglow_case">铝合金表壳 · 蓝宝石玻璃</span>
+      </div>
+      <div class="exploded-part" data-pos="top-right" data-part="badge">
+        <img class="part-thumb" src="assets/watchglow_badge.png" alt="电子吧唧">
+        <span class="part-tag" data-i18n="part_watchglow_badge">电子吧唧 · NFC社交</span>
+      </div>
+      <div class="exploded-part" data-pos="right" data-part="crown">
+        <img class="part-thumb" src="assets/watchglow_crown.png" alt="滚轮">
+        <span class="part-tag" data-i18n="part_watchglow_crown">内嵌式滚轮旋钮</span>
+      </div>
+      <div class="exploded-part" data-pos="bottom-right" data-part="pcb">
+        <img class="part-thumb" src="assets/watchglow_internal.png" alt="传感器">
+        <span class="part-tag" data-i18n="part_watchglow_pcb">光学心率 · PCB主板</span>
+      </div>
+      <div class="exploded-part" data-pos="bottom-left" data-part="strap">
+        <img class="part-thumb" src="assets/watchglow_strap.png" alt="表带">
+        <span class="part-tag" data-i18n="part_watchglow_strap">宝石装饰表带</span>
+      </div>
+    </div>
+    <div class="exploded-detail" id="watchglow-detail"><div class="detail-name"></div><div class="detail-desc"></div></div>
+    <button class="collapse-btn" id="watchglow-collapse" data-i18n="collapse_btn">Collapse</button>
+  </div>
+
+  <div class="scroll-indicator" id="watchglow-scroll">
+    <span></span><span></span><span></span>
+  </div>
+</section>
+
+<script src="product.js"></script>
+<script>initProduct('watchglow');</script>
+</body>
+</html>
